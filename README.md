@@ -6,9 +6,13 @@ An AI-powered historical archive that uses a custom Word-Level Transformer to ge
 The project follows a modular AI pipeline, organized into five distinct layers:
 
 **1.Input Layer:** A Streamlit-based interface for user queries.
+
 **2.Preprocessing Layer:** Tokenizes raw text and maps words to numerical IDs.
+
 **3.Embedding Layer:** Maps word IDs into a 64-dimensional vector space.
+
 **4.Transformer Engine:** A lightweight neural network built with PyTorch.
+
 **5.Output Layer:** Uses "Greedy Sampling" with a low temperature to ensure factual accuracy.
 
 ## 🚀 Getting Started
